@@ -1,5 +1,5 @@
-git is a version control system
-git is free software
+git init
+
 commit可以一次提交很多文件，所以你可以多次add不同的文件
 
 如果git status告诉你有文件被修改过，用git diff可以查看修改内容。
@@ -23,4 +23,7 @@ HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历�
 关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
 
 此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改
+
+要克隆一个仓库，首先必须知道仓库的地址，然后使用git clone命令克隆。
+git clone git@github.com:michaelliao/gitskills.git
 
